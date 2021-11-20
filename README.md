@@ -26,7 +26,7 @@ Its one of the three applications running on the docker image. If you are runnin
 
 on my AWS you can access on 
 
-```URL HERE```
+```ec2-18-230-165-116.sa-east-1.compute.amazonaws.com:3000/```
 
 ### Adiminer
 
@@ -37,7 +37,7 @@ because its scallable and easy to include and manage test data (user: ```admin``
 
 on my AWS you can access on 
 
-```URL HERE```
+```ec2-18-230-165-116.sa-east-1.compute.amazonaws.com:8080/```
 
 user: ```root``` password: ```example``` (default) database: ```mydatabase``` 
 
@@ -70,11 +70,11 @@ Assuming you already installed the requirements simply run:
 
 ```python3 app.py``` in your terminal and access your 
 
-```localhost:8050 ```
+```localhost:8050/upload ```
 
 on my AWS you can access on 
 
-```URL HERE```
+```ec2-18-230-165-116.sa-east-1.compute.amazonaws.com:8050/upload```
 
 This application provides a portal to insert CSV data (has to be the same format as the example) and also a view on the insertion progress.
 
